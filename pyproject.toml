@@ -1,0 +1,22 @@
+[project]
+name = "group"
+version = "0.1.0"
+description = "CLI Pencatatan Keuangan"
+authors = [
+    {name = "danggro", email = "anangdwin55@gmail.com"},
+]
+dependencies = [
+    "survey>=5.2.2",
+    "flask>=3.0.2",
+    "django>=5.0.2",
+    "socketify>=0.0.27",
+    "fastapi>=0.109.2",
+    "uvicorn>=0.27.1",
+]
+requires-python = ">=3.11"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
